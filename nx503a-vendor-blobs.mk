@@ -127,8 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/zte/nx503a/proprietary/lib/libcrashreporter.so:system/lib/libcrashreporter.so \
     vendor/zte/nx503a/proprietary/lib/libcurve25519.so:system/lib/libcurve25519.so \
-    vendor/zte/nx503a/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/zte/nx503a/proprietary/lib/libril.so:system/lib/lib.so \
     vendor/zte/nx503a/proprietary/lib/libds_jni.so:system/lib/libds_jni.so \
     vendor/zte/nx503a/proprietary/lib/libds_native.so:system/lib/libds_native.so \
     vendor/zte/nx503a/proprietary/lib/libexfat.so:system/lib/libexfat.so \
@@ -240,6 +238,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/firmware/bcm4339.hcd:system/vendor/firmware/bcm4339.hcd \
     vendor/zte/nx503a/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/zte/nx503a/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/zte/nx503a/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/zte/nx503a/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/zte/nx503a/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
