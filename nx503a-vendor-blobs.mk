@@ -21,9 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/cnd:system/bin/cnd \
     vendor/zte/nx503a/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/zte/nx503a/proprietary/bin/efsks:system/bin/efsks \
-    vendor/zte/nx503a/proprietary/bin/exfat:system/bin/exfat \
-    vendor/zte/nx503a/proprietary/bin/exfat-dump:system/bin/exfat-dump \
-    vendor/zte/nx503a/proprietary/bin/exfat-fsck:system/bin/exfat-fsck \
     vendor/zte/nx503a/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/zte/nx503a/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/zte/nx503a/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
@@ -47,8 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zte/nx503a/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/zte/nx503a/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/zte/nx503a/proprietary/bin/tmg3993:system/bin/tmg3993 \
-    vendor/zte/nx503a/proprietary/bin/updater:system/bin/updater \
     vendor/zte/nx503a/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/zte/nx503a/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zte/nx503a/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -56,12 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/etc/mobilenuminmainland.db:system/etc/mobilenuminmainland.db \
     vendor/zte/nx503a/proprietary/etc/qosmgr_rules.xml:system/etc/qosmgr_rules.xml \
     vendor/zte/nx503a/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-    vendor/zte/nx503a/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
-    vendor/zte/nx503a/proprietary/etc/wfdconfig1280_720.xml:system/etc/wfdconfig1280_720.xml \
-    vendor/zte/nx503a/proprietary/etc/wfdconfig640_480.xml:system/etc/wfdconfig640_480.xml \
-    vendor/zte/nx503a/proprietary/etc/wfdconfig800_480.xml:system/etc/wfdconfig800_480.xml \
-    vendor/zte/nx503a/proprietary/etc/wfdconfig960_540.xml:system/etc/wfdconfig960_540.xml \
-    vendor/zte/nx503a/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/zte/nx503a/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/zte/nx503a/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
     vendor/zte/nx503a/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
@@ -124,8 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libcurve25519.so:system/lib/libcurve25519.so \
     vendor/zte/nx503a/proprietary/lib/libds_jni.so:system/lib/libds_jni.so \
     vendor/zte/nx503a/proprietary/lib/libds_native.so:system/lib/libds_native.so \
-    vendor/zte/nx503a/proprietary/lib/libexfat.so:system/lib/libexfat.so \
-    vendor/zte/nx503a/proprietary/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     vendor/zte/nx503a/proprietary/lib/libfilterframework_jni.so:system/lib/libfilterframework_jni.so \
     vendor/zte/nx503a/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/zte/nx503a/proprietary/lib/libflashutils.so:system/lib/libflashutils.so \
@@ -133,8 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libgames_rtmp_jni.so:system/lib/libgames_rtmp_jni.so \
     vendor/zte/nx503a/proprietary/lib/libgcastv2_base.so:system/lib/libgcastv2_base.so \
     vendor/zte/nx503a/proprietary/lib/libgcastv2_support.so:system/lib/libgcastv2_support.so \
-    vendor/zte/nx503a/proprietary/lib/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so \
-    vendor/zte/nx503a/proprietary/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
     vendor/zte/nx503a/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/zte/nx503a/proprietary/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
     vendor/zte/nx503a/proprietary/lib/libjgcastservice.so:system/lib/libjgcastservice.so \
@@ -179,52 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/zte/nx503a/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/zte/nx503a/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/baseline.par:system/usr/srec/config/en.us/baseline.par \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/baseline11k.par:system/usr/srec/config/en.us/baseline11k.par \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/baseline8k.par:system/usr/srec/config/en.us/baseline8k.par \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/dictionary/basic.ok:system/usr/srec/config/en.us/dictionary/basic.ok \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/dictionary/cmu6plus.ok.zip:system/usr/srec/config/en.us/dictionary/cmu6plus.ok.zip \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/dictionary/enroll.ok:system/usr/srec/config/en.us/dictionary/enroll.ok \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/g2p/en-US-ttp.data:system/usr/srec/config/en.us/g2p/en-US-ttp.data \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/grammars/boolean.g2g:system/usr/srec/config/en.us/grammars/boolean.g2g \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/grammars/phone_type_choice.g2g:system/usr/srec/config/en.us/grammars/phone_type_choice.g2g \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/grammars/VoiceDialer.g2g:system/usr/srec/config/en.us/grammars/VoiceDialer.g2g \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/models/generic.swiarb:system/usr/srec/config/en.us/models/generic.swiarb \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/models/generic11.lda:system/usr/srec/config/en.us/models/generic11.lda \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/models/generic11_f.swimdl:system/usr/srec/config/en.us/models/generic11_f.swimdl \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/models/generic11_m.swimdl:system/usr/srec/config/en.us/models/generic11_m.swimdl \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/models/generic8.lda:system/usr/srec/config/en.us/models/generic8.lda \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/models/generic8_f.swimdl:system/usr/srec/config/en.us/models/generic8_f.swimdl \
-    vendor/zte/nx503a/proprietary/usr/srec/config/en.us/models/generic8_m.swimdl:system/usr/srec/config/en.us/models/generic8_m.swimdl \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/clg:system/usr/srec/en-US/clg \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/commands.abnf:system/usr/srec/en-US/commands.abnf \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/compile_grammar.config:system/usr/srec/en-US/compile_grammar.config \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/contacts.abnf:system/usr/srec/en-US/contacts.abnf \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/dict:system/usr/srec/en-US/dict \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/dictation.config:system/usr/srec/en-US/dictation.config \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/dnn:system/usr/srec/en-US/dnn \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/endpointer_dictation.config:system/usr/srec/en-US/endpointer_dictation.config \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/endpointer_voicesearch.config:system/usr/srec/en-US/endpointer_voicesearch.config \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/ep_acoustic_model:system/usr/srec/en-US/ep_acoustic_model \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/g2p_fst:system/usr/srec/en-US/g2p_fst \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/grammar.config:system/usr/srec/en-US/grammar.config \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/hclg_shotword:system/usr/srec/en-US/hclg_shotword \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/hmmlist:system/usr/srec/en-US/hmmlist \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/hmm_symbols:system/usr/srec/en-US/hmm_symbols \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/hotword.config:system/usr/srec/en-US/hotword.config \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/hotword_classifier:system/usr/srec/en-US/hotword_classifier \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/hotword_normalizer:system/usr/srec/en-US/hotword_normalizer \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/hotword_prompt.txt:system/usr/srec/en-US/hotword_prompt.txt \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/hotword_word_symbols:system/usr/srec/en-US/hotword_word_symbols \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/metadata:system/usr/srec/en-US/metadata \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/normalizer:system/usr/srec/en-US/normalizer \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/norm_fst:system/usr/srec/en-US/norm_fst \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/offensive_word_normalizer:system/usr/srec/en-US/offensive_word_normalizer \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/phonelist:system/usr/srec/en-US/phonelist \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/phone_state_map:system/usr/srec/en-US/phone_state_map \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm \
-    vendor/zte/nx503a/proprietary/usr/srec/en-US/wordlist:system/usr/srec/en-US/wordlist \
     vendor/zte/nx503a/proprietary/vendor/firmware/bcm4339.hcd:system/vendor/firmware/bcm4339.hcd \
     vendor/zte/nx503a/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/zte/nx503a/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
@@ -651,19 +590,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -689,12 +615,4 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/zte/nx503a/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/zte/nx503a/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/zte/nx503a/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32.bin \
-    vendor/zte/nx503a/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32.bin \
-    vendor/zte/nx503a/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2.bin \
-    vendor/zte/nx503a/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24.bin \
-    vendor/zte/nx503a/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24.bin \
-    vendor/zte/nx503a/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin \
-    vendor/zte/nx503a/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N.bin
-
+    vendor/zte/nx503a/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
