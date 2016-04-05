@@ -173,12 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libtar.so:system/lib/libtar.so \
     vendor/zte/nx503a/proprietary/lib/libtwrpmtp.so:system/lib/libtwrpmtp.so \
     vendor/zte/nx503a/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
-    vendor/zte/nx503a/proprietary/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
-    vendor/zte/nx503a/proprietary/lib/libvideoeditorplayer.so:system/lib/libvideoeditorplayer.so \
-    vendor/zte/nx503a/proprietary/lib/libvideoeditor_core.so:system/lib/libvideoeditor_core.so \
-    vendor/zte/nx503a/proprietary/lib/libvideoeditor_jni.so:system/lib/libvideoeditor_jni.so \
-    vendor/zte/nx503a/proprietary/lib/libvideoeditor_osal.so:system/lib/libvideoeditor_osal.so \
-    vendor/zte/nx503a/proprietary/lib/libvideoeditor_videofilters.so:system/lib/libvideoeditor_videofilters.so \
     vendor/zte/nx503a/proprietary/lib/libwebp_android.so:system/lib/libwebp_android.so \
     vendor/zte/nx503a/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/zte/nx503a/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
