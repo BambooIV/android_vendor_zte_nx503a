@@ -104,15 +104,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/etc/firmware/bcm4339/fw_bcmdhd_apsta.bin:system/etc/firmware/bcm4339/fw_bcmdhd_apsta.bin \
     vendor/zte/nx503a/proprietary/etc/firmware/bcm4339/fw_bcmdhd_p2p.bin:system/etc/firmware/bcm4339/fw_bcmdhd_p2p.bin \
     vendor/zte/nx503a/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/zte/nx503a/proprietary/etc/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml \
-    vendor/zte/nx503a/proprietary/etc/permissions/com.cyngn.screencast.xml:system/etc/permissions/com.cyngn.screencast.xml \
-    vendor/zte/nx503a/proprietary/etc/permissions/com.cyngn.updater.xml:system/etc/permissions/com.cyngn.updater.xml \
-    vendor/zte/nx503a/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/zte/nx503a/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     vendor/zte/nx503a/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/zte/nx503a/proprietary/etc/permissions/com.nextbit.android.xml:system/etc/permissions/com.nextbit.android.xml \
-    vendor/zte/nx503a/proprietary/etc/permissions/features.xml:system/etc/permissions/features.xml \
-    vendor/zte/nx503a/proprietary/etc/permissions/org.cyanogenmod.hardware.xml:system/etc/permissions/org.cyanogenmod.hardware.xml \
     vendor/zte/nx503a/proprietary/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
     vendor/zte/nx503a/proprietary/lib/libblkid.so:system/lib/libblkid.so \
     vendor/zte/nx503a/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
