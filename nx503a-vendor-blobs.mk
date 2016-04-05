@@ -127,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx214_liveshot.so:system/lib/libchromatix_imx214_liveshot.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx220_liveshot.so:system/lib/libchromatix_imx220_liveshot.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_t4k35_liveshot.so:system/lib/libchromatix_t4k35_liveshot.so \
-    vendor/zte/nx503a/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/zte/nx503a/proprietary/lib/libcrashreporter.so:system/lib/libcrashreporter.so \
     vendor/zte/nx503a/proprietary/lib/libcurve25519.so:system/lib/libcurve25519.so \
     vendor/zte/nx503a/proprietary/lib/libds_jni.so:system/lib/libds_jni.so \
