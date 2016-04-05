@@ -160,8 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
     vendor/zte/nx503a/proprietary/lib/libwebp_android.so:system/lib/libwebp_android.so \
     vendor/zte/nx503a/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/zte/nx503a/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
-    vendor/zte/nx503a/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/zte/nx503a/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/zte/nx503a/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/zte/nx503a/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/zte/nx503a/proprietary/vendor/firmware/bcm4339.hcd:system/vendor/firmware/bcm4339.hcd \
