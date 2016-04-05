@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zte/nx503a/proprietary/bin/radish:system/bin/radish \
     vendor/zte/nx503a/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/zte/nx503a/proprietary/bin/rild:system/bin/rild \
     vendor/zte/nx503a/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zte/nx503a/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zte/nx503a/proprietary/bin/thermal-engine:system/bin/thermal-engine \
@@ -172,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libplus_jni_v8.so:system/lib/libplus_jni_v8.so \
     vendor/zte/nx503a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/nx503a/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/zte/nx503a/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/zte/nx503a/proprietary/lib/librsjni.so:system/lib/librsjni.so \
     vendor/zte/nx503a/proprietary/lib/libRSSupport.so:system/lib/libRSSupport.so \
     vendor/zte/nx503a/proprietary/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
