@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/zte/nx503a/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/zte/nx503a/proprietary/bin/cnd:system/bin/cnd \
     vendor/zte/nx503a/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/zte/nx503a/proprietary/bin/efsks:system/bin/efsks \
     vendor/zte/nx503a/proprietary/bin/fmconfig:system/bin/fmconfig \
@@ -58,9 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/zte/nx503a/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/zte/nx503a/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/zte/nx503a/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/zte/nx503a/proprietary/etc/cne/NsrmConfiguration.xml:system/etc/cne/NsrmConfiguration.xml \
-    vendor/zte/nx503a/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/zte/nx503a/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/zte/nx503a/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/zte/nx503a/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -396,10 +392,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/lib/libchromatix_t4k35_default_video.so:system/vendor/lib/libchromatix_t4k35_default_video.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libchromatix_t4k35_preview.so:system/vendor/lib/libchromatix_t4k35_preview.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libchromatix_t4k35_zsl.so:system/vendor/lib/libchromatix_t4k35_zsl.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -516,7 +508,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/zte/nx503a/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/zte/nx503a/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
