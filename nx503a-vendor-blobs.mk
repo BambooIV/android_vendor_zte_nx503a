@@ -77,10 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/zte/nx503a/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     vendor/zte/nx503a/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/zte/nx503a/proprietary/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
-    vendor/zte/nx503a/proprietary/lib/libblkid.so:system/lib/libblkid.so \
     vendor/zte/nx503a/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
-    vendor/zte/nx503a/proprietary/lib/libbmlutils.so:system/lib/libbmlutils.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx135_069_liveshot.so:system/lib/libchromatix_imx135_069_liveshot.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx135_front_liveshot.so:system/lib/libchromatix_imx135_front_liveshot.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx135_gbao_lc898122_liveshot.so:system/lib/libchromatix_imx135_gbao_lc898122_liveshot.so \
@@ -91,64 +88,32 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx214_liveshot.so:system/lib/libchromatix_imx214_liveshot.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx220_liveshot.so:system/lib/libchromatix_imx220_liveshot.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_t4k35_liveshot.so:system/lib/libchromatix_t4k35_liveshot.so \
-    vendor/zte/nx503a/proprietary/lib/libcrashreporter.so:system/lib/libcrashreporter.so \
-    vendor/zte/nx503a/proprietary/lib/libcurve25519.so:system/lib/libcurve25519.so \
     vendor/zte/nx503a/proprietary/lib/libds_jni.so:system/lib/libds_jni.so \
     vendor/zte/nx503a/proprietary/lib/libds_native.so:system/lib/libds_native.so \
-    vendor/zte/nx503a/proprietary/lib/libfilterframework_jni.so:system/lib/libfilterframework_jni.so \
     vendor/zte/nx503a/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/zte/nx503a/proprietary/lib/libflashutils.so:system/lib/libflashutils.so \
     vendor/zte/nx503a/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
-    vendor/zte/nx503a/proprietary/lib/libgames_rtmp_jni.so:system/lib/libgames_rtmp_jni.so \
-    vendor/zte/nx503a/proprietary/lib/libgcastv2_base.so:system/lib/libgcastv2_base.so \
-    vendor/zte/nx503a/proprietary/lib/libgcastv2_support.so:system/lib/libgcastv2_support.so \
     vendor/zte/nx503a/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/zte/nx503a/proprietary/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
-    vendor/zte/nx503a/proprietary/lib/libjgcastservice.so:system/lib/libjgcastservice.so \
     vendor/zte/nx503a/proprietary/lib/liblocSDK4.so:system/lib/liblocSDK4.so \
-    vendor/zte/nx503a/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/zte/nx503a/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/zte/nx503a/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/zte/nx503a/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/zte/nx503a/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/zte/nx503a/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
-    vendor/zte/nx503a/proprietary/lib/libminadbd.so:system/lib/libminadbd.so \
-    vendor/zte/nx503a/proprietary/lib/libminuitwrp.so:system/lib/libminuitwrp.so \
-    vendor/zte/nx503a/proprietary/lib/libminzip.so:system/lib/libminzip.so \
     vendor/zte/nx503a/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zte/nx503a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/zte/nx503a/proprietary/lib/libmmcutils.so:system/lib/libmmcutils.so \
     vendor/zte/nx503a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/nx503a/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
     vendor/zte/nx503a/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
     vendor/zte/nx503a/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/zte/nx503a/proprietary/lib/libmoviemaker-jni.so:system/lib/libmoviemaker-jni.so \
-    vendor/zte/nx503a/proprietary/lib/libmtdutils.so:system/lib/libmtdutils.so \
-    vendor/zte/nx503a/proprietary/lib/libnetjni.so:system/lib/libnetjni.so \
-    vendor/zte/nx503a/proprietary/lib/libopenaes.so:system/lib/libopenaes.so \
-    vendor/zte/nx503a/proprietary/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
-    vendor/zte/nx503a/proprietary/lib/libpatts_engine_jni_api_ub.210030011.so:system/lib/libpatts_engine_jni_api_ub.210030011.so \
-    vendor/zte/nx503a/proprietary/lib/libphotoeditor_native.so:system/lib/libphotoeditor_native.so \
-    vendor/zte/nx503a/proprietary/lib/libplus_jni_v8.so:system/lib/libplus_jni_v8.so \
     vendor/zte/nx503a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/nx503a/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/zte/nx503a/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/zte/nx503a/proprietary/lib/librsjni.so:system/lib/librsjni.so \
-    vendor/zte/nx503a/proprietary/lib/libRSSupport.so:system/lib/libRSSupport.so \
-    vendor/zte/nx503a/proprietary/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
-    vendor/zte/nx503a/proprietary/lib/libsrec_jni.so:system/lib/libsrec_jni.so \
-    vendor/zte/nx503a/proprietary/lib/libtar.so:system/lib/libtar.so \
-    vendor/zte/nx503a/proprietary/lib/libtwrpmtp.so:system/lib/libtwrpmtp.so \
-    vendor/zte/nx503a/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
-    vendor/zte/nx503a/proprietary/lib/libwebp_android.so:system/lib/libwebp_android.so \
-    vendor/zte/nx503a/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/zte/nx503a/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/zte/nx503a/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/zte/nx503a/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/zte/nx503a/proprietary/vendor/firmware/bcm4339.hcd:system/vendor/firmware/bcm4339.hcd \
     vendor/zte/nx503a/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/zte/nx503a/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/zte/nx503a/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/zte/nx503a/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
