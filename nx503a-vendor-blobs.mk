@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/zte/nx503a/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/zte/nx503a/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/zte/nx503a/proprietary/bin/tmg3993:system/bin/tmg3993 \
     vendor/zte/nx503a/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/zte/nx503a/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/zte/nx503a/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
