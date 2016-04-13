@@ -19,15 +19,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),nx503a)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := QuickBoot
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := QuickBoot/QuickBoot.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := TimeService/TimeService.apk
