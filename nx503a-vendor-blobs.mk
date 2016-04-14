@@ -18,13 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/zte/nx503a/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/zte/nx503a/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/zte/nx503a/proprietary/bin/btCommand:system/bin/btCommand \
     vendor/zte/nx503a/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/zte/nx503a/proprietary/bin/diag_klog:system/bin/diag_klog \
-    vendor/zte/nx503a/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/zte/nx503a/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/zte/nx503a/proprietary/bin/efsks:system/bin/efsks \
     vendor/zte/nx503a/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/zte/nx503a/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/zte/nx503a/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
@@ -36,18 +31,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zte/nx503a/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/zte/nx503a/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/zte/nx503a/proprietary/bin/nl_listener:system/bin/nl_listener \
-    vendor/zte/nx503a/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/zte/nx503a/proprietary/bin/qcks:system/bin/qcks \
-    vendor/zte/nx503a/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/zte/nx503a/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/zte/nx503a/proprietary/bin/qosmgr:system/bin/qosmgr \
     vendor/zte/nx503a/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zte/nx503a/proprietary/bin/radish:system/bin/radish \
     vendor/zte/nx503a/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/zte/nx503a/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zte/nx503a/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/zte/nx503a/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/zte/nx503a/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/zte/nx503a/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zte/nx503a/proprietary/bin/tmg3993:system/bin/tmg3993 \
@@ -59,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/zte_addr_config:system/bin/zte_addr_config \
     vendor/zte/nx503a/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/zte/nx503a/proprietary/etc/mobilenuminmainland.db:system/etc/mobilenuminmainland.db \
-    vendor/zte/nx503a/proprietary/etc/qosmgr_rules.xml:system/etc/qosmgr_rules.xml \
     vendor/zte/nx503a/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/zte/nx503a/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/zte/nx503a/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
