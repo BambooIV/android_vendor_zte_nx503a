@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zte/nx503a/proprietary/bin/radish:system/bin/radish \
     vendor/zte/nx503a/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/zte/nx503a/proprietary/bin/rild:system/bin/rild \
     vendor/zte/nx503a/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zte/nx503a/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zte/nx503a/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
@@ -119,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/zte/nx503a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/nx503a/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/zte/nx503a/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/zte/nx503a/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/zte/nx503a/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/zte/nx503a/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
