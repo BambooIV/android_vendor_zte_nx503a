@@ -17,16 +17,11 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/zte/nx503a/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/zte/nx503a/proprietary/bin/btCommand:system/bin/btCommand \
     vendor/zte/nx503a/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/zte/nx503a/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/zte/nx503a/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/zte/nx503a/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/zte/nx503a/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/zte/nx503a/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/zte/nx503a/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/zte/nx503a/proprietary/bin/ks:system/bin/ks \
     vendor/zte/nx503a/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/zte/nx503a/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zte/nx503a/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -45,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/zte/nx503a/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zte/nx503a/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/zte/nx503a/proprietary/bin/zte_addr_config:system/bin/zte_addr_config \
     vendor/zte/nx503a/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/zte/nx503a/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/zte/nx503a/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
