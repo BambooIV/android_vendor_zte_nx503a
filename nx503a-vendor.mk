@@ -29,4 +29,18 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/zte/nx503a/overlay
 
+# OEM applications
+$(call inherit-product, vendor/zte/nx503a/oem.mk)
+
 $(call inherit-product, vendor/zte/nx503a/nx503a-vendor-blobs.mk)
+
+# Prebuilt APKs
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    TimeService
+
+# Prebuilt jars
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook
