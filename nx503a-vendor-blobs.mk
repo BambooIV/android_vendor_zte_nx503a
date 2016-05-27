@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/zte/nx503a/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zte/nx503a/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/zte/nx503a/proprietary/bin/zte_addr_config:system/bin/zte_addr_config \
     vendor/zte/nx503a/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/zte/nx503a/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/zte/nx503a/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
