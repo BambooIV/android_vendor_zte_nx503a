@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/zte/nx503a/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zte/nx503a/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/zte/nx503a/proprietary/bin/zte_addr_config:system/bin/zte_addr_config \
     vendor/zte/nx503a/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/zte/nx503a/proprietary/etc/mobilenuminmainland.db:system/etc/mobilenuminmainland.db \
     vendor/zte/nx503a/proprietary/etc/qosmgr_rules.xml:system/etc/qosmgr_rules.xml \
