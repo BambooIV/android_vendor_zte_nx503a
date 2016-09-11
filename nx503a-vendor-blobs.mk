@@ -69,8 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/zte/nx503a/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/zte/nx503a/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/zte/nx503a/proprietary/etc/firmware/bcm4339/fw_bcmdhd_apsta.bin:system/etc/firmware/bcm4339/fw_bcmdhd_apsta.bin \
-    vendor/zte/nx503a/proprietary/etc/firmware/bcm4339/fw_bcmdhd_p2p.bin:system/etc/firmware/bcm4339/fw_bcmdhd_p2p.bin \
+    vendor/zte/nx503a/proprietary/etc/firmware/bcm4339/fw_bcmdhd.bin:system/etc/firmware/bcm4339/fw_bcmdhd.bin \
     vendor/zte/nx503a/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/zte/nx503a/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     vendor/zte/nx503a/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
