@@ -458,7 +458,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService \
-    com.qualcomm.location \
     qcnvitems \
     qcrilhook
 endif
