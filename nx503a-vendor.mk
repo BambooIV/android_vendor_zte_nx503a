@@ -18,9 +18,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/app/nubia_IRControl/nubia_IRControl.apk:system/app/nubia_IRControl/nubia_IRControl.apk \
     vendor/zte/nx503a/proprietary/app/nubia_IRControl_uei_sdk/nubia_IRControl_uei_sdk.apk:system/app/nubia_IRControl_uei_sdk/nubia_IRControl_uei_sdk.apk \
     vendor/zte/nx503a/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/zte/nx503a/proprietary/bin/tmg3993:system/bin/tmg3993 \
+    vendor/zte/nx503a/proprietary/bin/usbhub:system/bin/usbhub \
+    vendor/zte/nx503a/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    vendor/zte/nx503a/proprietary/etc/firmware/bcm4339/fw_bcmdhd.bin:system/etc/firmware/bcm4339/fw_bcmdhd.bin \
     vendor/zte/nx503a/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/zte/nx503a/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/zte/nx503a/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/zte/nx503a/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/zte/nx503a/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/zte/nx503a/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/zte/nx503a/proprietary/lib/libchromatix_imx135_069_liveshot.so:system/lib/libchromatix_imx135_069_liveshot.so \
@@ -36,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zte/nx503a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/nx503a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/zte/nx503a/proprietary/vendor/firmware/bcm4339.hcd:system/vendor/firmware/bcm4339.hcd \
     vendor/zte/nx503a/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
@@ -317,12 +323,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/zte/nx503a/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/zte/nx503a/proprietary/bin/tmg3993:system/bin/tmg3993 \
-    vendor/zte/nx503a/proprietary/bin/usbhub:system/bin/usbhub \
-    vendor/zte/nx503a/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/zte/nx503a/proprietary/vendor/firmware/bcm4339.hcd:system/vendor/firmware/bcm4339.hcd \
-    vendor/zte/nx503a/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat
+    vendor/zte/nx503a/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
@@ -343,7 +344,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zte/nx503a/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/zte/nx503a/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/zte/nx503a/proprietary/etc/firmware/bcm4339/fw_bcmdhd.bin:system/etc/firmware/bcm4339/fw_bcmdhd.bin \
     vendor/zte/nx503a/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/zte/nx503a/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/zte/nx503a/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
@@ -441,6 +441,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
+    liblisten \
     libtime_genoff \
     libTimeService \
     qcrilmsgtunnel \
